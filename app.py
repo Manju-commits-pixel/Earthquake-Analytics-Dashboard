@@ -142,10 +142,10 @@ st.markdown(
 import streamlit as st
 from sqlalchemy import create_engine
 
-host = st.secrets["DB_HOST"]
+host = st.secrets["mysql-1e91aa78-ttesttt1234.d.aivencloud.com"]
 port = st.secrets["DB_PORT"]
 username = st.secrets["DB_USERNAME"]
-password = st.secrets["DB_PASSWORD"]
+password = st.secrets["AVNS_ad_VvcV4N1n5fsrh6Pq"]
 database = st.secrets["DB_DATABASE"]
 
 engine = create_engine(
